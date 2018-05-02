@@ -1,0 +1,66 @@
+/* Seleccion por etiqueta*/
+
+h1 {
+    color:rgb(51, 51, 88);
+    background-color:rgb(151, 211, 151);
+}
+
+/* Seleccion por id*/ /* El id no se puede duplicar tienen que ser diferentes*/
+
+#uno {
+    color: rgb(206, 85, 105);
+
+}
+
+#tres, #dos {
+    color: rgb(129, 35, 50);
+}
+
+#cinco{
+    font-size: large;
+}
+
+
+/* Seleccion por clase*/ /* La clase si puede ser igual*/
+
+.cabecera{
+    color: rgb(54, 12, 19);
+}
+
+.destacado{
+    font-weight: bold;
+}
+
+
+
+
+header > img{
+    margin-left: 60px;
+}
+
+.container > .row > .col:nth-child(1){
+    background-color:yellow;
+}
+
+.container > .row > .col:nth-child(2){
+   font-size: 20px;
+}
+
+.container > .row > .col:nth-child(4){
+    color:rgb(209, 44, 71);
+    text-align:center;
+    
+}
+
+
+.container > .row > .col:nth-child(3){
+    text-align:center;
+}
+
+.container > .row:nth-child(2) jpg{
+    margin: 20px;
+
+}
+
+
+
